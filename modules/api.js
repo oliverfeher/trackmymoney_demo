@@ -38,4 +38,4 @@ class ApiAdapter
     };
 }
 
-export default ApiAdapter;
+//export default ApiAdapter;
