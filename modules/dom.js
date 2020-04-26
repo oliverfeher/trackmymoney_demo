@@ -1,6 +1,6 @@
-import Auth from "/modules/auth.js";
-import Money from "/modules/money.js"
-import Pie from "/modules/pie.js"
+// import Auth from "/modules/auth.js";
+// import Money from "/modules/money.js"
+// import Pie from "/modules/pie.js"
 
 // RESPONSIBLE FOR MANIPULATING THE DOM
 class Dom
