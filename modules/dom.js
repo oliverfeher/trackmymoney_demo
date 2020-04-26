@@ -350,4 +350,4 @@ class Dom
     }
 }
 
-export default Dom;
+// export default Dom;
