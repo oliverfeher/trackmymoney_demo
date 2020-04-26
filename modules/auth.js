@@ -16,12 +16,12 @@ class Auth
         if (user.hasOwnProperty("error"))
         {
             Dom.renderLogin();
-            ErrorHandling.loginErrors(user);
+            Errors.loginErrors(user);
         }
         else if (user.hasOwnProperty("loginError"))
         {
             Dom.renderSignUp();
-            ErrorHandling.signupErrors(user);
+            Errors.signupErrors(user);
         }
         else
         {
@@ -93,7 +93,7 @@ class Auth
                 password: event.path[2].childNodes[3][1].value
             }
         }
-        API.postRequest("/login", userInfo)  
+        ApiAdapter.postRequest("/login", userInfo)  
             .then(response => this.setCurrentUser(response));
     };
 
@@ -111,7 +111,7 @@ class Auth
             }
         };
 
-        API.postRequest("/users", userInfo)
+        ApiAdapter.postRequest("/users", userInfo)
             .then(response => this.setCurrentUser(response));
     };
 
