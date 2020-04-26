@@ -12,7 +12,7 @@ class ApiAdapter
     };
 
     // BASE URL
-    static baseURL = "http://localhost:3000/api/v1";
+    static baseURL = "https://trackmymoney.herokuapp.com/api/v1";
 
 
     // UNIVERSAL FETCH POST REQUEST

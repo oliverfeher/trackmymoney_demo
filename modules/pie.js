@@ -37,7 +37,7 @@ class Pie
         .append("g")
             .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
             
-            fetch(`http://localhost:3000/api/v1/users/${user.id}`, {
+            fetch(`https://trackmymoney.herokuapp.com/api/v1/users/${user.id}`, {
                 headers: {
                     "Content-Type": "application/json",
                     "Accept": "application/json"
