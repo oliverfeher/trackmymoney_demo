@@ -96,4 +96,4 @@ class Pie
         }
     }
 }
-export default Pie;
+// export default Pie;
